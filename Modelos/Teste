@@ -1,0 +1,35 @@
+----------------------          ----------------------            ----------------------
+|     Departamento   |          |     Colaborador    |            |        Projeto      |
+----------------------          ----------------------            ----------------------
+| - sigla: String    |<>------->| - matricula: String|          | - nome: String       |
+|                    |          | - nome: String     |<>---------| - data_inicio: Date |
+|                    |          | - cpf: String      |           | - data_termino: Date|
+|                    |          | - telefone: String|            | - lider: Colaborador |
+|                    |          | - endereco: String|            | - membros: Set<Colab>|
+|                    |          | - email: String   |            | - papeis: Map<Colab,|
+|                    |          | - salario: Double |            |           Set<Papel>|
+|                    |          | - projetos: Set<Pr|            ----------------------
+|                    |          |             ojeto> |              
+|                    |          | - dependentes: Set<|              
+|                    |          |             Colabor|              
+|                    |          ----------------------              
+----------------------
+          ^
+          |
+          |
+          |
+          |
+          |
+----------------------
+|       Papel        |
+----------------------
+| - nome: String     |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+----------------------
